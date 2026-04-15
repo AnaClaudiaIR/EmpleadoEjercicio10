@@ -95,7 +95,7 @@ public class Main {
                             //Resultado --> Lo que se ejecute del PS
                             ResultSet resultSet = preparedStatement.executeQuery();
 
-                            //Si está el ID --> pide el ID del equipo
+                            //Si está el ID --> pide el ID del equipo.
                             if (resultSet.next()){
                                 idCiclistaValido = true;
 
